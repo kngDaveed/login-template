@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!-- fontawesome icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- logo icon on title -->
+    <link rel="icon" href="images/download.png" type="image/png" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen">
+        <div class="screen_content">
+          <form class="login_signup">
+            <div class="login_field">
+              <i class="login_icon fas fa-user"></i>
+              <input required type="text" class="login_input" placeholder="First Name" />
+            </div>
+            <div class="login_field">
+              <i class="login_icon fas fa-at"></i>
+              <input required type="text" class="login_input" placeholder="Username" />
+            </div>
+            <div class="login_field">
+              <i class="login_icon fas fa-envelope"></i>
+              <input required type="text" class="login_input" placeholder="Email" />
+            </div>
+            <div class="login_field">
+              <i class="login_icon fas fa-lock"></i>
+              <input required type="password" type="text" class="login_input" placeholder="*** *** **" />
+            </div>
+            <button type="button" onclick="location.href='index.html'" class="button login_submit">
+              <span class="button_text">Create account</span>
+              <i class="button_icon fa-solid fa-caret-right fa-beat"></i>
+            </button>
+          </form>
+
+          <div class="social_login">
+            <h6 class="">Get on Board via socials</h6>
+            <div class="social_icons">
+              <a href="" class="social_login_icon fab fa-instagram"></a>
+              <a href="" class="social_login_icon fab fa-facebook"></a>
+              <a href="" class="social_login_icon fab fa-twitter"></a>
+              <a href="" class="social_login_icon fab fa-linkedin"></a>
+            </div>
+          </div>
+        </div>
+        <div class="screen_background">
+          <span class="screen_background_shape screen_background_shape4"></span>
+          <span class="screen_background_shape screen_background_shape3"></span>
+          <span class="screen_background_shape screen_background_shape2"></span>
+          <span class="screen_background_shape screen_background_shape1"></span>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
